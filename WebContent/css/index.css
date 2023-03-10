@@ -1,0 +1,34 @@
+html, body {
+    background-color:#DCBDCF;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 5px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+div.container {
+  width:100%;
+  height:100%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  display: inline-block;
+  background: #f1f1f1;
+  border-color:pink;
+}
+button:hover{
+	opacity:1;
+}
